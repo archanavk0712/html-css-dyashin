@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(53, 50, 50);
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    padding: 20px 10px 40px 10px;
+    width: 190px;
+    height: 220px;
+    background-color: black;
+    border-radius: 10px;
+}
+.row1,.row2{
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8,.e9,.e10,.e11,.e12,
+.e13,.e14,.e15,.e16,.e17,.e18,.e19,.e20{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 43px;
+    padding: 9px 15px 9px 15px;
+    border-radius: 15px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+.e1,.e2,.e3,.e4,.e8,.e12,.e16,.e20{
+    background-color: rgb(252, 236, 17);
+}

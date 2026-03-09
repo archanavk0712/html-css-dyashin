@@ -1,0 +1,36 @@
+h3{
+    font-style: italic;
+}
+#head{
+    color: aqua;
+}
+.block{
+color: brown;
+font-size: 20px;
+}
+.name{
+    color:aqua;
+    width: 50px;
+    height: 20dpx;
+    background-image: url(assignment1Img3.png);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border: 1px, solid, red;
+    border-top: none;
+    display: inline- ;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head,.block{
+    color:chartreuse;
+    font-synthesis-style: }
+
+#sample{
+    background-color:aqua;
+}
+#name{
+    background-color: brown;
+    padding: 20px 30px 40px 50px;
+}

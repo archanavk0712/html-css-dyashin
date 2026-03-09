@@ -1,0 +1,47 @@
+.static
+{
+    border: 1px solid green;
+    position: static;
+    top: 100px;
+    left: 500px;
+}
+.relative{
+    border: 1px solid #8B008B;
+    position:relative;
+    height: 100px;
+}
+.absolute{
+    border: 1px solid blue;
+    position:absolute;
+    left: 300px;
+}
+.sticky{
+    border: 1px solid purple;
+    position: sticky;
+    top: 10px;
+}
+.fixed{
+    
+    border: 1px solid darkgray;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+#img{
+    width: 400px;
+    height: 600px;
+    background-image: url("assets/assignment1Img1.png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+@media  screen and (min-width:460px){
+    #img {
+    background-image:url("assets/assignment1Img2.png");
+    }
+}
+@media  screen and (min-width:790px){
+    #img {
+    background-image:url("assets/assignment1Img3.png");
+    }
+}

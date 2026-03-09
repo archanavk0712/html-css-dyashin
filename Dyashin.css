@@ -1,0 +1,232 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.navlogo{
+    position: relative;
+}
+.dyashinlogo{
+ 
+    height: 100px;
+    padding: 10px 40px 10px 250px;
+}
+.linkedinlogo, .facebooklogo, .youtubelogo,
+.instagramlogo, .xlogo, .pinterestlogo, .quoralogo{
+   
+    height: 35px;
+    padding: 0px 10px 30px 0px;
+}
+.callortextlogo{
+    position:absolute;
+    top: 25px;
+    height: 30px;
+    right: 680px;
+    height: 100px;
+    
+}
+.help{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    top:22px;
+    right:370px;
+    font-size: 22px;
+}
+.phone1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    font-weight: bold;
+    color: rgb(91, 198, 234);
+    font-size: 25px;
+    top:65px;
+    right:410px;
+}
+.usflag{
+    position:absolute;
+    top: 65px;
+    height: 28px;
+    right: 620px;
+}
+.phone2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    font-weight: bold;
+    color: rgb(91, 198, 234);
+    font-size: 25px;
+    top:105px;
+    right:405px;
+}
+.indiaflag{
+    position:absolute;
+    top: 105px;
+    height: 28px;
+    right: 620px;
+}
+.nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content:space-around;
+    flex-wrap: wrap;
+}
+.nav1,.nav2,.nav3,.nav4,.nav5,.nav6,.nav7,.nav8{
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content:space-around;
+    flex-wrap: wrap;
+    font-size: 19px;
+    font-weight:900;
+}
+.nav1{
+    padding: 30px 60px 0px 60px;
+}
+.homehr{
+    width: 59px;
+    height: 2px;
+    background-color: rgb(30, 110, 137);
+    border: 2px solid rgb(30, 110, 137) ;
+}
+.backimg{
+    padding: 10px 0px 0px 0px;
+    height: 70vh;
+    width:99.5vw ;
+    position: relative;
+    filter: brightness(60%);
+    
+}
+.about{
+    color: white;
+    position: absolute;
+    top: 400px;
+    right: 1100px;
+}
+.about1{
+    font-size: 70px;
+    padding: 15px;
+}
+.about2,.about3,.about4{
+    padding: 10px;
+    font-size: 24px;
+}
+.discover{
+    background-color: rgb(78, 183, 218);
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+}
+.chatboticon{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+}
+.blackcapsule{
+    position:absolute;
+    right: 500px;
+    top: 255px;
+    opacity: 0.7;
+}
+.bluecapsule{
+    position:absolute;
+    height: 400px;
+    top: 620px;
+    right:10px;
+    opacity: 0.4;
+}
+.whitecapsule{
+    position:absolute;
+    border-radius: 200px;
+    height: 220px;
+    width: 120px;
+    transform: rotate(-36deg);
+    top: 800px;
+    right:300px;
+    opacity: 0.3;
+}
+.aboutUs{
+    position: relative;
+    right: 20px;
+    height: 50vh;
+    padding: 200px 0px 0px 1200px;
+}
+.aboutUs1{
+    position: absolute;
+    top: 1200px;
+    left: 500px;
+}
+.aboutUs2{
+    position: absolute;
+    top: 1500px;
+    left: 600px;
+}
+.WhiteDots{
+    position: absolute;
+    top: 1300px;
+    left: 900px;
+}
+.BlackCap{
+    position: absolute;
+    top: 1300px;
+    left: 435px;
+    opacity: 0.9;
+}
+.BlueCapSmall{
+    position: absolute;
+    top: 1470px;
+    width: 80px;
+    left: 800px;
+    opacity: 0.9;
+}
+.BlueCapBig{
+    position: absolute;
+    top: 1640px;
+    width: 120px;
+    left: 730px;
+    opacity: 0.9;
+}
+.aboutUsButton{
+    position: absolute;
+    top: 1200px;
+    right: 900px;
+    width:200px;
+} 
+.AboutUsHeading{
+    position: absolute;
+    color: black;
+    top: 1260px;
+    right: 430px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.AboutUsContent{
+    position: absolute;
+    color: #8b8a95;
+    top: 1450px;
+    right: 350px;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page2{
+    height: 100vh;
+}
+.page3{
+    height: 50vh;
+    background-color: #E2E9F7;
+}
+.page4{
+    height: 80vh;
+    background-color: white;
+}
+.blue{
+     height: 100vh;
+    background-color: #E2E9F7;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 5px;
+    width:fit-content;
+    background-size: 300px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;    
+}
+input,textarea{
+    border-radius: 5px;
+    border-color: white;
+}
+
+#name,#email,#phone,#address,#postCode,#country,#cardNumber,#securityCode,#nameOnCard{
+    height: max-content;
+    width: 150px;
+}
+
+.name,.email,.phone,.address,.postCode,.country,.cardNumber,.securityCode,.nameOnCard{
+    height: max-content;
+    width: 150px;
+}
+
+img{
+    width: 20px; 
+    height: 10px; 
+    padding: 0.1px; 
+    border: 1px; 
+    border-style: solid; 
+    border-color: black;
+    border-radius: 0%;
+}
+
+.back1{
+    background-color: rgb(218, 239, 114);
+    padding: 5px;
+    width: 300px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.back2{
+    background-color: rgb(218, 239, 114);
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.back3{
+    background-color: rgb(218, 239, 114);
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5px;
+}
